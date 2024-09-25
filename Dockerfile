@@ -1,2 +1,9 @@
+FROM node:20-bookworm as build
+RUN mkdir /app
+WORKDIR /app
+COPY . .
+RUN yarn
+RUN yarn build
+
 FROM nginx:latest
-COPY build /usr/share/nginx/html
+COPY --from=build /app/build /usr/share/nginx/html
