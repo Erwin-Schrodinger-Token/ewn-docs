@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ewn-docs 
+  labels:
+    app: ewn-docs 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ewn-docs 
+  template:
+    metadata:
+      name: ewn-docs 
+      labels:
+        app: ewn-docs 
+    spec:
+      containers:
+      - name: ewn-docs 
+        image: ewn/ewn-docs:latest 
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ewn-docs
+spec:
+  selector:
+    app: ewn-docs
+  ports:
+  - port: 80
+    targetPort: 80
