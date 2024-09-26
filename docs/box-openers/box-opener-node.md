@@ -62,7 +62,10 @@ this should settle down over time and lead to a majority of "✅ Guesses accepte
 
 :::note
 
-If you're running the container in the background (`-d` flag) you can follow the logs with `docker logs -f <container-id>`.
+If you're running the container in the background (`-d` flag) you can follow the logs with `docker logs -f <container-id>`. This command will display the latest logs and continuously follow new logs in real-time.
+
+To stop following the logs, press `Ctrl+C`.
+
 To find out the container ID, run `docker ps` and look for the `CONTAINER ID` column.
 
 :::
