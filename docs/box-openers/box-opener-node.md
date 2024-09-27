@@ -2,7 +2,7 @@
 sidebar_position: 30
 ---
 
-# Deploy Box Opener Node
+# Run Box Opener Node (Docker)
 
 To create your box opener node you'll need...
 
@@ -39,13 +39,13 @@ Once Docker is installed open a command prompt (Windows) or terminal (OSX / Linu
 #### Mainnet
 
 ```commandline
-docker run -it -e API_KEY=<API_KEY> robputt796/box-opener:latest
+docker run -it -e API_KEY=<API_KEY> ghcr.io/erwin-schrodinger-token/ewn-box-opener:latest
 ```
 
 #### Devnet
 
 ```commandline
-docker run -it -e API_KEY=<API_KEY> -e API_URL=https://devnet-api.erwin.lol/ robputt796/box-opener:latest
+docker run -it -e API_KEY=<API_KEY> -e API_URL=https://devnet-api.erwin.lol/ ghcr.io/erwin-schrodinger-token/ewn-box-opener:latest
 ```
 
 :::tip
