@@ -2,7 +2,7 @@
 sidebar_position: 30
 ---
 
-# Run Box Opener Node (Docker)
+# Run Box Opener Node (Docker) 🐳
 
 To create your box opener node you'll need...
 
