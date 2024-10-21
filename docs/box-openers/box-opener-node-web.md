@@ -4,7 +4,7 @@ sidebar_position: 40
 
 # Run Box Opener Node (Web) 🌐
 
-Running the box opener node on the web is the easiest way to take part in the project without any installation.
+Running the box opener node on the web is the easiest way to run your Box Opener without any installation.
 
 ### Options
 
