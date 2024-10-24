@@ -12,7 +12,7 @@ The Box Opener role is the equivalent of a miner in other crypto projects. Box O
 
 The Box Opener role is given to community members who actively contribute in a positive way and help promote EWN. To apply for this role, you must first engage with the community, then submit a Box Opener Application through the [Discord server](https://discord.gg/GechF7dFHZ). The flowchart below outlines the steps to determine if you’re eligible for the Box Opener role.
 
-![Box Opener Role Flow Chart](https://docs.erwin.lol/img/oracle_flow_chart.png "Box Opener Role Flow Chart")
+![Box Opener Role Flow Chart](https://docs.erwin.lol/img/box_opener_role_flowchart.png "Box Opener Role Flow Chart")
 
 ## Liquidity Legend
 
