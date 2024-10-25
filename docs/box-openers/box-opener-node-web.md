@@ -4,6 +4,12 @@ sidebar_position: 50
 
 # Run Box Opener Node (Web) 🌐
 
+:::warning
+
+Web Box Openers are not officially supported by the EWN core team and are contributed by members of the community. Please use caution when using these offerings as we are unable to vouch for their effectiveness or security.
+
+:::
+
 Running the box opener node on the web is the easiest way to run your Box Opener without any installation.
 
 ### Options
